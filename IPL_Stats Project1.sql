@@ -1,26 +1,26 @@
 create database ipl_stats;
 use ipl_stats;
 
-CREATE TABLE ipl (
-    team1  VARCHAR(100),
-    team2  VARCHAR(100),
-    match_date DATE,
-    toss_winner VARCHAR(100),
-    toss_decision VARCHAR(20),
-    winner VARCHAR(100),
-    player_of_match VARCHAR(100),
-    venue VARCHAR(200),
-    city VARCHAR(100),
-    team1_players TEXT,
-    team2_players TEXT,
-    season INT,
-    match_number INT,
-    match_type VARCHAR(50),
-    result VARCHAR(50),
+create table ipl (
+    team1  varchar(100),
+    team2  varchar(100),
+    match_date date,
+    toss_winner varchar(100),
+    toss_decision varchar(20),
+    winner varchar(100),
+    player_of_match varchar(100),
+    venue varchar(200),
+    city varchar(100),
+    team1_players text,
+    team2_players text,
+    season int,
+    match_number int,
+    match_type varchar(50),
+    result varchar(50),
     result_margin decimal(5,2),
-    target_runs INT,
-    target_overs DECIMAL(4,1),
-    super_over VARCHAR(10)
+    target_runs int,
+    target_overs decimal(4,1),
+    super_over varchar(10)
 );
 
 
