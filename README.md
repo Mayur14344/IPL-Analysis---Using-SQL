@@ -20,12 +20,9 @@ Applied aggregations, joins, subqueries, and filters for data analysis
 
 Structured queries for clarity and reusability
 
-🛠️ Technologies Used
+🛠️ Tool Used
 
-SQL (MySQL / PostgreSQL / SQLite – adjust as needed)
+SQL (MySQL)
 
 Relational Database Concepts
 
-🎯 Purpose
-
-This project demonstrates practical SQL skills for data analysis, reporting, and sports analytics, making it useful for beginners and aspiring data analysts.
